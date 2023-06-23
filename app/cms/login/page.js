@@ -1,11 +1,13 @@
-import React from 'react'
+import React from "react";
 
 function Login() {
   return (
-    <div className='flex items-center justify-center h-screen border-solid'>
-      LOGIN 
+    <div className="flex items-center justify-center h-screen">
+      <div className="border p-4 rounded w-1/3">
+        <div className="text-center">LOGIN</div>
+      </div>
     </div>
-  )
+  );
 }
 
-export default Login
+export default Login;
